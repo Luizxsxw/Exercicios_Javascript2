@@ -1,0 +1,181 @@
+/*Reset css*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Fonte*/
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+ 
+  
+/*Aqui começa o código*/
+/*Edição do fundo*/
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: radial-gradient(#2c3246,#070a11);
+
+
+}
+/*Edição da caixa 1*/
+#caixa1{
+    display: flex;
+    flex-direction: column;
+    background-color: #111827;
+    width: 35rem;
+    height: 40rem;
+    padding: 2rem;
+    border: 1px solid #ffffff00;
+    border-radius: 25px;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 6px 6px 15px #141414;
+}
+h2{
+    font-size: 50px;
+    width: 100%;
+    color:white;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+label{
+    font-size: 1.3rem;
+    color: #8a8a8a;
+    margin: 4px;
+}
+input{
+    width: 20rem;
+    height: 2.8rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: black;
+    color: #8a8a8a;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    border: none;
+    -webkit-text-fill-color: #8a8a8a;
+    -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+#resetsenha{
+    margin: 2rem 0 2rem 0;
+    text-decoration:underline;
+    color: #8a8a8a;
+    font-size: 1.3rem;
+    display: flex;
+    align-self: flex-end;
+}
+#resetsenha:hover{
+    color: #c9c9c9;
+}
+#botao1{
+    width: 12rem;
+    height: 4rem;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background: linear-gradient(to right, #062899d0, #1c1d61b4);
+    box-shadow: 0px 0px 6px 2.5px#0e0d0d;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#botao1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px 2px#646464;
+
+}
+
+#cadastro{
+    margin: 2rem 0 2rem 0;
+    text-decoration:underline;
+    color: #8a8a8a;
+    font-size: 1.3rem;
+    display: flex;
+    align-self:center;
+}
+#cadastro:hover{
+    color: #c9c9c9;
+}
+table{
+    color: #8a8a8a;
+     
+    
+}
+td img{
+    width: 3rem;
+    padding: 0.5rem;
+    transition: transform 0.3s ease;  
+}
+
+td img:hover {
+    transform: scale(1.4);
+}
